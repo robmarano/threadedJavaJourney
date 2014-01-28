@@ -12,6 +12,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <artifactId>javaJourney</artifactId>
+    <name>sjavaJourney</name>
+
   </properties>
 
   <repositories>
@@ -37,12 +40,16 @@
         <configuration>
           <executable>java</executable>
           <arguments>
+              <argument>-Dlog4j.debug</argument>
               <argument>-classpath</argument>
+                <classpath/>
+<!--
                 <classpath>
                   <dependency>hadoop-core</dependency>
                 </classpath>
-			  <argument>edu.cooper.ece465.javaJourney</argument>
-			  <argument>4393755</argument>
+-->
+			       <argument>edu.cooper.ece465.javaJourney</argument>
+			       <argument>4393755</argument>
           </arguments>
         </configuration>
       </plugin>
@@ -108,6 +115,21 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.16</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging-api</artifactId>
+      <version>1.1</version>
     </dependency>
   </dependencies>
 </project>

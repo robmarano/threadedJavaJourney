@@ -4,3 +4,12 @@
 *.jar
 *.war
 *.ear
+
+*.sublime-project
+*.sublime-workspace
+
+*.log
+.classpath
+.project
+.settings/
+target/
