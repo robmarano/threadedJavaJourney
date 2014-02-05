@@ -48,8 +48,7 @@
                   <dependency>hadoop-core</dependency>
                 </classpath>
 -->
-			       <argument>edu.cooper.ece465.javaJourney</argument>
-			       <argument>4393755</argument>
+			       <argument>edu.cooper.ece465.ProducerConsumerExample</argument>
           </arguments>
         </configuration>
       </plugin>
