@@ -13,16 +13,20 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <artifactId>javaJourney</artifactId>
-    <name>sjavaJourney</name>
-
+    <name>javaJourney</name>
+    <portNumber>1971</portNumber>
   </properties>
 
   <repositories>
-      <repository>
-        <id>mvnrepository</id>
-		<url>http://mvnrepository.com</url>
-      </repository>
-    </repositories>
+    <repository>
+      <id>mvnrepository</id>
+      <url>http://mvnrepository.com</url>
+    </repository>
+    <repository>
+      <id>apache.snapshots</id>
+      <url>http://repository.apache.org/snapshots/</url>
+    </repository>
+  </repositories>
 
   <build>
     <plugins>
@@ -48,7 +52,7 @@
                   <dependency>hadoop-core</dependency>
                 </classpath>
 -->
-			       <argument>edu.cooper.ece465.ProducerConsumerExample</argument>
+			       <argument>edu.cooper.ece465.sockets.DistributedImaging</argument>
           </arguments>
         </configuration>
       </plugin>
@@ -140,6 +144,11 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-imaging</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>log4j</groupId>
