@@ -48,7 +48,7 @@
                   <dependency>hadoop-core</dependency>
                 </classpath>
 -->
-			       <argument>edu.cooper.ece465.ProducerConsumerTest</argument>
+			       <argument>edu.cooper.ece465.ProducerConsumerExample</argument>
           </arguments>
         </configuration>
       </plugin>
