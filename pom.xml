@@ -52,7 +52,7 @@
                   <dependency>hadoop-core</dependency>
                 </classpath>
 -->
-			       <argument>edu.cooper.ece465.sockets.DistributedImaging</argument>
+			       <argument>edu.cooper.ece465.concurrent.bqProducerConsumerService</argument>
           </arguments>
         </configuration>
       </plugin>
