@@ -52,7 +52,7 @@
                   <dependency>hadoop-core</dependency>
                 </classpath>
 -->
-			       <argument>edu.cooper.ece465.gson.EmployeeGsonExample</argument>
+			       <argument>edu.cooper.ece465.concurrent.WaitNotifyTest</argument>
           </arguments>
         </configuration>
       </plugin>

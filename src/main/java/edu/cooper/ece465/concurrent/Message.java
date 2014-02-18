@@ -10,5 +10,8 @@ public class Message {
     public String getMsg() {
         return msg;
     }
-
+    
+    public void setMsg(String str) {
+        this.msg=str;
+    }
 }
