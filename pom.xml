@@ -52,7 +52,7 @@
                   <dependency>hadoop-core</dependency>
                 </classpath>
 -->
-			       <argument>edu.cooper.ece465.concurrent.threadpool.WorkerPool</argument>
+			       <argument>edu.cooper.ece465.concurrent.MyTimerTask</argument>
           </arguments>
         </configuration>
       </plugin>
